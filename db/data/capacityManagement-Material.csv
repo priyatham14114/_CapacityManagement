@@ -1,0 +1,2 @@
+MaterialID,Description,UnitOfMeasure,ShapeType,SideLength,Length,Width,Radius,Thickness,Volume
+1234567890,Wooden plank,Piece,Rectangle,2.0,0.0,0.5,0.0,0.0,1.0

@@ -1,0 +1,19 @@
+###
+GET http://localhost:4004/odata/v4/capacity-management-srv/Material HTTP/1.1
+
+###
+POST http://localhost:4004/odata/v4/capacity-management-srv/Material HTTP/1.1
+Content-Type: application/json
+
+    {
+      "MaterialID": "1212323",
+      "Product": null,
+      "EAN_UPC": "NA",
+      "SAPProductCode": "12323433",
+      "Length": "424",
+      "Width": "24",
+      "Height": "24",
+      "Volume": "164",
+      "GrossWeight": "343",
+      "NetWeight": "340"
+    }
